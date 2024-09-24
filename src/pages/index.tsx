@@ -4,10 +4,14 @@ import { ReactNode } from "react";
 
 export default function Home() {
   return (
-    <>
-      <h1 className={style.h1}>인덱스 홈</h1>
-      <h2 className={style.h2}>h2</h2>
-    </>
+    <div>
+      <section>
+        <h3>지금 추천하는 도서</h3>
+      </section>
+      <section>
+        <h3>등록된 모든 도서</h3>
+      </section>
+    </div>
   );
 }
 
